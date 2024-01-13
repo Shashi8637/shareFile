@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL='https://sharefile-a2cn.onrender.com';
+const API_URL='http://localhost:8000';
 
 
 export const  uploadFile = async(data)=>{
